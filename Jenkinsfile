@@ -5,7 +5,7 @@ pipeline {
 		GO111MODULES = 'on'
 	}
 	tools {
-		go 'go-1.15'
+		go 'go-1.12'
 	}
 	stages {
 		stage('Build') {
